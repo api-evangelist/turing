@@ -1,8 +1,13 @@
 aid: turing
-name: turing
-description: 'turing is a company surfaced as a portfolio company of insight-partners, menlo-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: manufacturing. This profile
-  is a lead awaiting the enrichment pipeline.'
+name: Turing Labs
+description: 'Turing Labs (turingsaas.com) is a product-led growth platform for consumer
+  packaged goods companies. Its "Growth OS" helps CPG and consumer-product teams pressure-test
+  which product bets will win before spending, perfect formulations, and fund launches
+  from recovered margin, consolidating product development, formulation R&D, and go-to-market
+  decisioning into a single engine rather than a stack of disconnected tools. The company
+  is backed by Insight Partners and Menlo Ventures. No public developer API, OpenAPI,
+  or documentation surface was found during enrichment; the product is delivered through
+  a login-gated web application at app.turingsaas.com.'
 url: https://raw.githubusercontent.com/api-evangelist/turing/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +16,30 @@ x-backed-by:
 - menlo-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.turingsaas.com/images/6890646f4b93cedd96526271_open-graph.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Manufacturing
+- Consumer Packaged Goods
+- Product Development
+- Formulation
+- Product-Led Growth
+- SaaS
+- R&D
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +49,18 @@ maintainers:
 common:
 - type: Website
   url: https://www.turingsaas.com/
+- type: Login
+  url: https://app.turingsaas.com/
+- type: Support
+  url: https://www.turingsaas.com/contact
+- type: TermsOfService
+  url: https://www.turingsaas.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.turingsaas.com/privacy-policy
+- type: DomainSecurity
+  url: security/turing-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
